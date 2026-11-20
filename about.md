@@ -1,0 +1,95 @@
+---
+title: About
+layout: page
+description: About
+bodyClass: page-about
+---
+
+GreenSeal is a consultancy dedicated to helping organizations reduce the environmental footprint of their software.
+We combine technical expertise with a deep understanding of sustainability to deliver strategies, processes, and tools that make greener software development both practical and impactful.
+
+
+# Our Mission
+
+<!-- > Saving the planet, one software system at a time. -->
+<!-- > Make the software industry eco-friendly by default. -->
+
+## ✼ Make the **software industry sustainable** by default.
+
+<!-- > Change the software industry by making sustainability the norm. -->
+
+We help software teams measure, certify, and improve sustainability. Environmentally-friendly software becomes the default, not the exception. Our mission is to integrate sustainability into the very core of software engineering and artificial intelligence. We support companies in designing and implementing processes that minimize energy consumption and carbon emissions, ensuring that digital products and AI systems are efficient, responsible, and future-proof.
+
+> **Our Values:** Sustainability · Innovation · Transparency
+
+We envision a software and AI industry where sustainability is not an afterthought, but a standard. Every line of code and every model parameter has the potential to contribute to climate goals. GreenSeal exists to help organizations achieve that potential, whether they are building enterprise systems, deploying large language models, or experimenting with agentic AI.
+
+GreenSeal.dev works through a network-based collaboration model, connecting with researchers and industry experts across software engineering, machine learning systems, and sustainable computing.
+
+This allows us to:
+- Apply state-of-the-art, peer-reviewed techniques to real-word systems
+- Scale expertise according to the technical needs of each project
+- Combine rigorous measurement with hands-on engineering practice
+
+Our work is grounded in **evidence, not assumptions**: every recommendation is based on profiling, benchmarking, and validated optimization methods.
+
+![Talks and Keynotes](/images/keynote_luis.jpg)
+
+# Leadership
+
+GreenSeal.dev is co-founded and led by Luís Cruz, PhD in Computer Science, Assistant Professor, and internationally recognized researcher in Sustainable Software Engineering and Green AI.
+
+His work spans academic research, engineering practice, and industry collaboration, with a focus on the measurement, optimization, and governance of energy-efficient software and AI systems. He has authored numerous peer-reviewed publications and received multiple awards for academic excellence and research impact.
+
+GreenSeal.dev builds on this foundation through a network-based collaboration model, working closely with researchers, engineers, and industry partners to scale expertise according to the technical needs of each engagement.
+This structure ensures that GreenSeal’s methods remain scientifically grounded, independently verifiable, and continuously evolving.
+
+# Research Foundation
+
+GreenSeal's services are grounded in peer-reviewed research — not in-house opinion.
+The founder's academic work at TU Delft covers energy-efficient software, Green AI, and hardware energy profiling, and forms the scientific basis for GreenSeal's methodology.
+Papers are open-access; tooling is open-source.
+
+**Selected publications:**
+
+- E. Barba Roque, L. Cruz, T. Durieux (2025). *[Unveiling the Energy Vampires: A Methodology for Debugging Software Energy Consumption.](https://doi.org/10.1109/ICSE55347.2025.00118)* ICSE 2025. Best Paper Award.
+- T. Yarally, L. Cruz, D. Feitosa, J. Sallou, A. van Deursen (2023). *[Uncovering Energy-Efficient Practices in Deep Learning Training: Preliminary Steps Towards Green AI.](https://arxiv.org/abs/2303.13972)* CAIN 2023. ACM SIGSOFT Distinguished Paper Award.
+- L. Cruz, R. Abreu (2017). *Performance-based Guidelines for Energy Efficient Mobile Applications.* MobileSoft 2017. Most Influential Paper Award 2023.
+- J. Sallou, L. Cruz, T. Durieux (2023). *[EnergiBridge: Empowering Software Sustainability through Cross-Platform Energy Measurement.](https://arxiv.org/abs/2312.13897)* SANER 2024.
+- R. Verdecchia, J. Sallou, L. Cruz (2023). *[A Systematic Review of Green AI.](https://arxiv.org/abs/2301.11047)* WIREs Data Mining and Knowledge Discovery.
+- L. Cruz, P. Lago, H. Muccini, et al. (2025). *[Greening AI-Enabled Systems with Software Engineering: A Research Agenda for Environmentally Sustainable AI Practices.](https://arxiv.org/abs/2506.01774)* ACM SIGSOFT SEN.
+- E. Barba Roque, L. Cruz (2025). *[Energy Aware Development of Neuromorphic Implantables: From Metrics to Action.](https://arxiv.org/abs/2506.09599)* ICT4S 2025.
+
+## Open-Source Tooling: EnergiBridge
+
+Audits and benchmarks are powered by **[EnergiBridge](https://github.com/tdurieux/EnergiBridge)**, a cross-platform, open-source energy measurement toolkit.
+EnergiBridge was co-developed by Luís Cruz with June Sallou and Thomas Durieux (TU Delft).
+It is peer-reviewed, independently published, and fully auditable — not a proprietary black box.
+
+# How It All Started
+
+GreenSeal.dev was created to close a persistent gap between sustainability research and real-world software engineering practice.
+
+Its origins lie in academic research on energy-efficient software and artificial intelligence, initially focused on developing tools and techniques to reduce the energy footprint of software-intensive systems. As this work expanded to large-scale AI and cloud-based infrastructures within leading research environments, its practical relevance became increasingly clear.
+
+Over time, this research expanded beyond isolated experiments into systematic studies of how software and AI systems consume energy in production, producing peer-reviewed methods for profiling, benchmarking, and improving efficiency — without compromising performance.
+
+In parallel, these insights were translated into formal academic teaching, helping train hundreds of computer science and AI students to design systems that are both high-performing and resource-efficient. Through this combination of research, education, and industry collaboration, one pattern became consistently clear:
+
+> scientifically validated methods for improving software and AI efficiency exist,
+but they are rarely operationalized or recognized in everyday engineering practice.
+
+Organizations could optimize systems, reduce costs, and lower energy consumption — yet lacked a credible, technical way to demonstrate and sustain those improvements over time.
+
+GreenSeal.dev was founded to operationalize this body of knowledge:
+to bring together academic rigor, engineering practice, and continuous measurement into a practical framework for real systems.
+
+From this foundation, the need for a clear, evidence-based efficiency label emerged naturally — one that reflects actual system behavior, relies on continuous measurement, and remains valid only while performance is maintained. This led to the creation of the label [Green Software Practices™ (GSP™)](/gsp/) as a formal way to recognize proven, sustained efficiency in software and AI systems.
+
+
+# Let’s Work Together
+
+Whether you are operating AI models in production, scaling cloud infrastructure, or preparing credible ESG reporting, GreenSeal.dev helps you move from intention to measurable impact.
+
+{% include book-a-call.html %}
+

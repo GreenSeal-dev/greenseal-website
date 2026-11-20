@@ -1,0 +1,30 @@
+---
+title: "Training & Education"
+date: 2025-11-18T12:33:46+10:00
+weight: 3
+summary: |
+ **Bring the expertise to the core of your organization.**
+
+ A multi-faceted curriculum designed for software organisations, enabling teams to integrate green software engineering practices into real-world development and operations.
+
+ - Talk & Keynotes
+ - Workshops
+ - Certified training
+ - ISO/IEC TS 20125 readiness training
+ - Events
+
+---
+
+Bring the expertise to the core of your organization.
+Our multi-faceted curriculum supports software organisations in integrating green software engineering practices into their existing development and delivery workflows, from design decisions to deployment and operations.
+
+- Talks & Keynotes. High-level sessions on sustainable software and AI efficiency for technical and non-technical audiences.
+- Training & Workshops. Hands-on workshops for developers, engineers, and managers focused on energy-efficient systems.
+- [ISO/IEC TS 20125 readiness](/services/iso-20125-readiness/). Dedicated training on the new digital services ecodesign specification, alongside hands-on readiness support.
+
+### Who delivers it
+
+Training is led by **Luís Cruz**, Assistant Professor at TU Delft's Software Engineering Research Group and a published researcher in Sustainable Software Engineering and Green AI.
+His peer-reviewed work — including award-winning papers at ICSE, CAIN, and WIREs Data Mining & Knowledge Discovery — forms the scientific backbone of the curriculum.
+This is expertise grounded in active research, not in-house opinion.
+

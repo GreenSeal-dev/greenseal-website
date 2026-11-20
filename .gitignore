@@ -1,0 +1,28 @@
+# NPM
+node_modules
+npm-debug.log
+
+# Jekyll
+_site
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+**/Gemfile.lock
+
+# Reference materials (not for publication, e.g. draft standards)
+/reference/
+
+# Temporary files
+tmp
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+.idea
+
+# Internal planning notes (not for publication)
+/.claude/docs/

@@ -1,0 +1,46 @@
+---
+layout: default
+bodyClass: "page-basic"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 id="title" class="title">{{page.title}}</h1>
+                  {% if page.date or page.author %}
+                  <p class="post-meta">
+                  <small><i>
+                    {% if page.date %}
+                      <span class="post-date">
+                        {{ page.date | date: "%B %d, %Y" }}
+                      </span>
+                    {% endif %}
+                    {% if page.author %}
+                      {% if page.date %} · {% endif %}
+                      <span class="post-author">
+                        {{ page.author }}
+                      </span>
+                    {% endif %}
+                    </i></small>
+                  </p>
+                {% endif %}
+                {% assign parts = content | split: '<div class="footnotes"' %}
+                <div class="content">{{ parts[0] }}
+                <div class="text-center my-1 text-muted">
+                  <span>— ✻ —</span>
+                </div>
+                {% if parts.size > 1 %}<div class="footnotes"{{ parts[1] | replace: '<a href="http', '<a target="_blank" rel="noopener" href="http' }}{% endif %}
+                </div>
+                <div class="mt-4 pt-4 border-top">
+                  <p><strong>Want to reduce the energy footprint of your software?</strong><br/>
+                  GreenSeal.dev helps engineering teams measure and cut energy consumption across AI and cloud systems, grounded in peer-reviewed research.
+                  <a href="/services/efficiency-assessment/">Start with a free assessment.</a></p>
+                </div>
+                <p class="back-to-top mt-3">
+                <a href="#">↑ Back to top</a>
+            </p>
+            </div>
+        </div>
+    </div>
+</div>

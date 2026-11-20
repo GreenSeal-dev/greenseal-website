@@ -1,0 +1,89 @@
+---
+layout: gsp
+title: GSP™ FAQ
+---
+
+# Frequently Asked Questions
+
+## What is GSP™?
+
+GSP™ (Green Software Practices™) is a certification framework that helps organizations assess, validate, and improve the sustainability of their software and AI systems.
+It focuses on practical, measurable practices across governance, training, measurement, and continuous improvement.
+
+## Is GSP™ a certification or an assessment?
+
+GSP™ is a certification framework supported by a structured assessment process.
+Self-Assessed certification is based on self-declared information.
+Verified and Verified+ certifications are awarded only after independent verification by GreenSeal.
+
+## Is GSP™ open? Can I use it?
+
+Yes. The GreenSeal Green Software Practices (GSP) are published as an open set of practices on [GitHub]({{ site.gsp_latest_release_url }}){:target="_blank" rel="noopener"} under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The current version is v{{ site.gsp_version }}.
+You can use, share, and adapt the practices, including commercially, for example to review your own teams, write internal guidelines, or teach. You must credit "GreenSeal.dev (https://greenseal.dev)" and indicate any changes you made.
+What the license does not cover is certification. Only GreenSeal.dev can grant GSP™ certification, and derivative works must not imply certification or endorsement by GreenSeal.dev. "GreenSeal", "GreenSeal.dev", "GSP" and "GSP Certified" are trademarks of GreenSeal, Lda., and the license grants no rights to use them.
+
+## Is this a product certification?
+No. GSP™ certifies **organizational practices**, not individual software products.
+
+## How is GSP™ different from other sustainability certifications/standards?
+
+While there are other sustainability certification frameworks, GSP™ stands out for being focused in development practices that make software more resource efficient. Most frameworks overlook the importance of building software products that are environmentally friendly.
+
+## How does GSP™ compare with ISO14001?
+
+ISO 14001 is a standard for Environmental Management Systems that addresses an organization’s environmental impact and supports continuous improvement. Nevertheless, it overlooks the environmental impact of software execution and the substantial carbon emission reductions that can be achieved through energy-efficient software design.
+
+## Does paying for verification guarantee certification?
+
+No.
+
+Organizations pay for an independent verification process, not for a badge.
+Certification badges (Verified or Verified+) are awarded only if the criteria are met.
+
+All paid certifications result in a detailed technical assessment report, regardless of the certification outcome.
+
+## What happens if we do not pass the Verified certification?
+
+If the criteria are not fully met:
+- Your existing certification status (e.g. Self-Assessed) remains unchanged
+- You receive a detailed report identifying gaps and improvement areas
+- You may address the gaps and request re-verification at a later stage
+No organization leaves the verification process without clear and actionable feedback.
+
+## Can an organization enroll in Verified+ without already being certified?
+
+Yes.
+
+Organizations may engage in the Verified+ program even if they do not yet meet all certification criteria.
+The Verified+ badge is awarded only once the criteria are fulfilled.
+
+## Does GSP™ measure carbon emissions?
+GSP™ focuses on **engineering practices and measurement capabilities**. Carbon metrics may be included when available but are not mandatory.
+
+## Is the badge time-limited?
+Yes. All GSP™ certifications are valid for a limited period and must be renewed to remain active.
+
+## Can startups apply?
+Yes. GSP™ is designed to be inclusive and scalable.
+
+## What is the difference between Self-Assessed and Verified certification?
+GSP™ Self-Assessed is a lightweight self-declared assessment, based entirely on information provided by the organization and not independently verified.
+Verified certification is assessed against a substantially larger, more comprehensive set of criteria than Self-Assessed, and requires external review of evidence and validation by GreenSeal.
+The two levels are not the same checklist with different scrutiny applied. Verified certification covers more ground and adds independent review on top of it.
+
+## Can we make public sustainability claims using GSP™?
+
+- **GSP™ Self-Assessed**: Should not be used for strong external claims
+- **GSP™ Verified / GSP™ Verified+**: Suitable for public sustainability and ESG communication
+
+Organizations are responsible for ensuring their claims are accurate and aligned with their certification level.
+
+## Who can submit a GSP™ self-assessment?
+The assessment must be submitted by someone authorized to represent the organization and confirm the accuracy of the provided information.
+
+## Who operates the certification?
+GSP™ is operated by **GreenSeal Lda.**, an independent company specialized in sustainable software and AI.
+
+## Can we lose the certification?
+Yes. Misuse of the badge or misleading claims may result in revocation.
+

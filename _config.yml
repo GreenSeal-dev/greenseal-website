@@ -1,0 +1,76 @@
+baseurl: ''
+url: "https://www.greenseal.dev"
+permalink: pretty
+title: 'GreenSeal.dev'
+tagline: Energy-efficient AI & software engineering
+description: >
+  Peer-reviewed, engineering-driven services to reduce energy consumption
+  and infrastructure costs in AI, cloud, and edge systems. Specialists in
+  energy benchmarking, TinyML, and on-device inference efficiency.
+default_image: '/images/logo/og-default.jpg'
+
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "32px"
+  desktop_width: "220px"
+
+home:
+  limit_services: 6
+
+# GreenSeal Green Software Practices (GSP) open release.
+# The pinned release URL is built from gsp_version: {{ site.gsp_repo_url }}/releases/tag/v{{ site.gsp_version }}
+gsp_version: 1.0.1
+gsp_l2_requirements: 32
+gsp_repo_url: "https://github.com/GreenSeal-dev/gsp-certification"
+gsp_latest_release_url: "https://github.com/GreenSeal-dev/gsp-certification/releases/latest"
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: true
+  certified:
+    output: true
+    permalink: /gsp/certified/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+  - scope:
+      path: ""
+      type: "certified"
+    values:
+      title: GSP™ Certified Organization
+      layout: certified-company
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md
+

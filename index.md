@@ -1,0 +1,129 @@
+---
+title: GreenSeal.dev
+layout: default
+bodyClass: "page-home"
+description: Green Seal helps companies reduce the ecological footprint of their software through consulting, training, and certification.
+intro_image: "images/illustrations/developer.svg"
+intro_image_absolute: false
+intro_image_hide_on_mobile: true
+---
+
+
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+<p class="text-muted mb-1"><span style="color: #507C69;">Green</span>Seal.dev</p>
+<h1>Reduce AI & cloud costs, without sacrificing performance.</h1>
+
+<p>We help engineering teams measure and reduce energy consumption and infrastructure costs across AI pipelines and cloud systems. Methods grounded in peer-reviewed research and validated in production.</p>
+
+<p><strong>Typical results: 20–50% cost reduction in AI pipelines.</strong></p>
+
+{% include book-a-call.html %}
+      </div>
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-6">
+    <div class="row align-items-center justify-content-center">
+      <!-- Image -->
+      <div class="col-12 col-md-6 text-center mb-4 mb-md-0">
+        <img
+          src="{{ '/images/datacenter-plot.svg' | absolute_url }}"
+          alt="Datacenter electricity usage plot"
+          class="img-fluid"
+          style="max-width: 480px; width: 100%;"
+        />
+      </div>
+
+      <!-- Text -->
+      <div class="col-12 col-md-6">
+        <p>
+          Software runs on hardware that must be powered and cooled. Every line of code matters.
+          By 2030, data-center electricity demand is projected to more than double, from 448 TWh in 2025 to 980 TWh*.
+          <strong>Sustainable software engineering is no longer optional!</strong>
+        </p>
+        <p><small>*Source: <a href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai?utm_source=greenseal.dev" target="_blank">The International Energy Agency</a></small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip strip-white">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row align-items-center justify-content-center">
+
+      <!-- Text -->
+      <div class="col-12 col-md-8">
+        <h2>
+            Certify your teams with GSP™<br/>
+            <small>Turn sustainability efforts into recognized value.</small>
+        </h2>
+        <p>
+            Many teams invest time and effort in making their software more sustainable, but that work often goes unseen.
+            <a href="{{"/gsp" |absolute_url }}">GSP™ (Green Software Practices)</a> makes your commitment visible and verifiable.
+        </p>
+        <p>
+            We certify how your development process applies recognized green software practices,
+            and provide clear, auditable evidence of your sustainability maturity.
+            GSP™ comes in three different levels.
+            Choose the one that suits you.
+            <a href="{{"/gsp" |absolute_url }}">Learn more ▷</a>
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+        <div class="d-flex flex-column align-items-center gap-2">
+          {%- for level in site.data.certification_levels -%}
+            <a href="{{"/gsp/levels" |absolute_url}}">
+            <img
+              src="{{ level.badge | absolute_url }}"
+              alt="{{ level.name }} certification badge"
+              class="img-fluid"
+              style="max-width: 200px; width: 100%"
+            />
+            </a>
+            {%-endfor-%}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-6">
+    <div class="row justify-content-start">
+      {% assign limit = site.home.limit_services | default: 6 %}
+      {% assign sorted_services = site.services | sort: "weight" %}
+      {% for service in sorted_services limit: limit %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+              <!-- <a href="{{ "/services" | relative_url }}">{{ service.title }}</a> -->
+            </h2>
+            <p>{{ service.excerpt | markdownify | strip_html | truncatewords: 30 }} <a href="{{ service.url | relative_url }}">Read more.</a></p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
