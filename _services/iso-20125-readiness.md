@@ -26,6 +26,6 @@ As a Technical Specification rather than a full International Standard, it doesn
 
 ### How this relates to GSP™
 
-ISO/IEC TS 20125 works at the level of a specific digital service: does *this* service follow recognised ecodesign practices at each life-cycle stage? Our [GSP™ certification](/gsp/) works one level up, at the organisation: does the team building it have the measurement infrastructure and improvement culture to keep meeting standards like this one over time, not just once. The two are complementary — see our post on [RGESN and GSP™](/blog/2026-03-03-rgesn-and-gsp/) for the fuller argument, which applies equally here.
+ISO/IEC TS 20125 works at the level of a specific digital service: does *this* service follow recognised ecodesign practices at each life-cycle stage? Our [GSP™ certification](https://gsp.greenseal.dev/) works one level up, at the organisation: does the team building it have the measurement infrastructure and improvement culture to keep meeting standards like this one over time, not just once. The two are complementary — see our post on [RGESN and GSP™](/blog/2026-03-03-rgesn-and-gsp/) for the fuller argument, which applies equally here.
 
 👉 **[Talk to us about ISO/IEC TS 20125 readiness](/contact/)**

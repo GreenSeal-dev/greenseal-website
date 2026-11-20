@@ -22,19 +22,18 @@ No test framework is configured.
 
 ### Layout Hierarchy
 
-`base.html` (HTML shell, analytics, SEO meta) → `default.html` (header/footer/nav) → page-specific layouts (`home.html`, `service.html`, `blog.html`, `gsp.html`, `certified-company.html`, `team.html`, etc.)
+`base.html` (HTML shell, analytics, SEO meta) → `default.html` (header/footer/nav) → page-specific layouts (`home.html`, `service.html`, `blog.html`, `team.html`, etc.)
 
 ### Collections (defined in `_config.yml`)
 
 - **`_services/`** — Service offerings. Sorted by `weight` frontmatter. Output to `/services/`.
 - **`_team/`** — Team members. Files prefixed with `_` are drafts/templates.
-- **`_certified/`** — GSP-certified organizations. Permalink: `/gsp/certified/:name/`.
 - **`/blog/`** — Blog posts. Date-prefixed filenames (`YYYY-MM-DD-slug.md`), layout `blog`.
 
 ### Data-Driven Content (`_data/`)
 
 - `menus.yml` — Main and footer navigation menus (items have `weight` for ordering).
-- `certification_levels.yml` — GSP certification tier definitions.
+- `certification_levels.yml` — GSP certification statuses and badge images, used by the home page badges.
 - `contact.yml` — Contact details used in templates.
 - `social.json` — Social media links.
 - `seo.yml` — SEO metadata.
@@ -62,7 +61,7 @@ Create `/blog/YYYY-MM-DD-slug.md` with frontmatter: `title`, `layout: blog`, `da
 
 ### Adding a Certified Organization
 
-Create a `.md` file in `_certified/` with relevant frontmatter. Layout defaults to `certified-company`. Permalink pattern: `/gsp/certified/:name/`.
+Certified organisations are listed on gsp.greenseal.dev: add a YAML file to `site/certified/` in the `gsp-certification` repo. Nothing changes here.
 
 ### Navigation
 
@@ -97,6 +96,6 @@ The current blog pipeline is tracked in [`.claude/docs/blog-plan-2026-08.md`](.c
 ## Key Details
 
 - Files prefixed with `_` in collections (e.g., `_consulting.md`, `_sage-kirk.md`) are drafts/templates and not output by Jekyll.
-- The GSP section (`/gsp/`) has its own sub-navigation via `_includes/gsp-nav.html`.
+- GSP (the standard, certification scheme, terms, self-assessment and registry of certified organisations) lives at https://gsp.greenseal.dev, built from the `GreenSeal-dev/gsp-certification` repo. When the two sites disagree about GSP, gsp.greenseal.dev is authoritative. The old `/gsp/...` pages here are `redirect_to` stubs (jekyll-redirect-from); keep them, because certified organisations' badges link to `/gsp/certified/<name>/`. The commercial offer is `_services/gsp-certification.md`.
 - Cookie consent is opt-in (analytics denied by default). See `_includes/cookie-banner.html` and `_layouts/base.html`.
-- Plugins: `jekyll-environment-variables`, `jekyll-sitemap`.
+- Plugins: `jekyll-environment-variables`, `jekyll-sitemap`, `jekyll-redirect-from`.

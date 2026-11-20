@@ -117,7 +117,7 @@ So when a vendor tells you its AI runs on 100% renewable energy, ask three quest
 
 A pledge is a sentence, and sentences can be reworded. An inventory is a commitment to keep publishing the uncomfortable number. The most credible thing any of these four companies did in the last two years was not a new target. It was Microsoft dropping a certificate habit and reporting the jump, and Google publishing its 65% hourly figure next to its 100% annual one.
 
-That holds at every scale. A plain, honest account of what your software actually consumes, using a method you do not change when the numbers turn against you, is worth more than a polished 2030 promise. If you want help building that kind of account, [get in touch](/contact/). If you want independent verification of the organisational and engineering practices behind it, rather than of the pledge, that is what [GSP™](/gsp/) is for.
+That holds at every scale. A plain, honest account of what your software actually consumes, using a method you do not change when the numbers turn against you, is worth more than a polished 2030 promise. If you want help building that kind of account, [get in touch](/contact/). If you want independent verification of the organisational and engineering practices behind it, rather than of the pledge, that is what [GSP™](https://gsp.greenseal.dev/) is for.
 
 ### Further reading
 

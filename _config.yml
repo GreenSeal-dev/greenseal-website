@@ -20,12 +20,8 @@ logo:
 home:
   limit_services: 6
 
-# GreenSeal Green Software Practices (GSP) open release.
-# The pinned release URL is built from gsp_version: {{ site.gsp_repo_url }}/releases/tag/v{{ site.gsp_version }}
-gsp_version: 1.0.1
-gsp_l2_requirements: 32
-gsp_repo_url: "https://github.com/GreenSeal-dev/gsp-certification"
-gsp_latest_release_url: "https://github.com/GreenSeal-dev/gsp-certification/releases/latest"
+# Green Software Practices (GSP) has its own site. The old /gsp/ pages redirect there.
+gsp_url: "https://gsp.greenseal.dev"
 
 collections:
   services:
@@ -33,9 +29,6 @@ collections:
     sort_by: weight
   team:
     output: true
-  certified:
-    output: true
-    permalink: /gsp/certified/:name/
 
 defaults:
   - scope:
@@ -48,12 +41,6 @@ defaults:
       type: "team"
     values:
       layout: "team"
-  - scope:
-      path: ""
-      type: "certified"
-    values:
-      title: GSP™ Certified Organization
-      layout: certified-company
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
@@ -61,6 +48,7 @@ sass:
 plugins:
   - jekyll-environment-variables
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile

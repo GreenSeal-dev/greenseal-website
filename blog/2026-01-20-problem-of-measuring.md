@@ -53,6 +53,6 @@ Do you inspire other colleagues and teams to do the same and to learn from your 
 
 This is where the [GSP™] certification plays an important role: we want to make sure software companies have the right roadmap to build sustainable software by default. In addition, [GSP™] makes sure that those companies get the right recognition for it! If you are doing an extra mile to build green software, you should be able to get credit for it. Not only will your customers learn how cool you are, but you will also inspire others to follow your lead!
 
-[Learn more about the GSP™ certification](/gsp).
+[Learn more about the GSP™ certification](https://gsp.greenseal.dev/).
 
-[GSP™]: /gsp
+[GSP™]: https://gsp.greenseal.dev/

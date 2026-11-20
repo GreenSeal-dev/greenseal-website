@@ -51,4 +51,4 @@ Requirements gathering and end of life don't feel like engineering work, which i
 
 That's the case for certifying the organization, not just the service. If your organization can point to a TS 20125 conformance declaration for one product but can't say who owns decommissioning for the next five, that's worth looking at closely.
 
-If you want to see exactly how GSP™ Level 2 maps to all six TS 20125 phases, or want a second set of eyes on your own organization's coverage, [get in touch](/contact/). And if you haven't looked at [GSP™](/gsp/) itself yet, this is a good moment to.
+If you want to see exactly how GSP™ Level 2 maps to all six TS 20125 phases, or want a second set of eyes on your own organization's coverage, [get in touch](/contact/). And if you haven't looked at [GSP™](https://gsp.greenseal.dev/) itself yet, this is a good moment to.

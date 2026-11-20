@@ -65,5 +65,5 @@ Is your software **truly resource-efficient**, or is it just hiding behind a "Ca
 Want to move beyond the spreadsheet? Explore the [Green Software Practices™] and let’s start building **software that’s built to last**, not built to bloat.
 
 
-[Green Software Practices™]: {{'/gsp' | absolute_url}}
+[Green Software Practices™]: https://gsp.greenseal.dev/
 

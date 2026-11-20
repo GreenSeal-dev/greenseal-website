@@ -67,4 +67,4 @@ Used together, the picture is clear: RGESN tells you what a sustainable digital 
 
 ---
 
-*Interested in assessing your team's green software maturity? [Start with the GSP™ self-assessment →](/gsp/self-assessment)*
+*Interested in assessing your team's green software maturity? [Start with the GSP™ self-assessment →](https://gsp.greenseal.dev/self-assessment/)*

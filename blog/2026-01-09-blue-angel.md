@@ -40,6 +40,6 @@ This shift in target ensures that energy efficiency is not an extra mile teams n
 
 Ultimately, GSP™ is not meant to replace initiatives like Blauer Engel, but to complement and extend them. Transparency is an essential first step, but real impact comes when energy efficiency is built into everyday engineering decisions. By focusing on processes, culture, and continuous feedback, GSP™ aims to make sustainability something teams practice by default — not something they certify at the very end.
 
-To learn more about the certification of Green Software Practices, check out the [GSP™ info pages]({{"/gsp" | absolute_url}}) or schedule a [free call with us]({{"/contact" | absolute_url}}).
+To learn more about the certification of Green Software Practices, check out the [GSP™ info pages](https://gsp.greenseal.dev/) or schedule a [free call with us]({{"/contact" | absolute_url}}).
 
-[GSP™]: /gsp
+[GSP™]: https://gsp.greenseal.dev/

@@ -68,14 +68,14 @@ intro_image_hide_on_mobile: true
         </h2>
         <p>
             Many teams invest time and effort in making their software more sustainable, but that work often goes unseen.
-            <a href="{{"/gsp" |absolute_url }}">GSP™ (Green Software Practices)</a> makes your commitment visible and verifiable.
+            <a href="https://gsp.greenseal.dev/">GSP™ (Green Software Practices)</a> makes your commitment visible and verifiable.
         </p>
         <p>
             We certify how your development process applies recognized green software practices,
             and provide clear, auditable evidence of your sustainability maturity.
             GSP™ comes in three different levels.
             Choose the one that suits you.
-            <a href="{{"/gsp" |absolute_url }}">Learn more ▷</a>
+            <a href="https://gsp.greenseal.dev/">Learn more ▷</a>
         </p>
       </div>
 
@@ -83,7 +83,7 @@ intro_image_hide_on_mobile: true
       <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
         <div class="d-flex flex-column align-items-center gap-2">
           {%- for level in site.data.certification_levels -%}
-            <a href="{{"/gsp/levels" |absolute_url}}">
+            <a href="https://gsp.greenseal.dev/certification/">
             <img
               src="{{ level.badge | absolute_url }}"
               alt="{{ level.name }} certification badge"

@@ -84,7 +84,7 @@ Organizations could optimize systems, reduce costs, and lower energy consumption
 GreenSeal.dev was founded to operationalize this body of knowledge:
 to bring together academic rigor, engineering practice, and continuous measurement into a practical framework for real systems.
 
-From this foundation, the need for a clear, evidence-based efficiency label emerged naturally — one that reflects actual system behavior, relies on continuous measurement, and remains valid only while performance is maintained. This led to the creation of the label [Green Software Practices™ (GSP™)](/gsp/) as a formal way to recognize proven, sustained efficiency in software and AI systems.
+From this foundation, the need for a clear, evidence-based efficiency label emerged naturally — one that reflects actual system behavior, relies on continuous measurement, and remains valid only while performance is maintained. This led to the creation of the label [Green Software Practices™ (GSP™)](https://gsp.greenseal.dev/) as a formal way to recognize proven, sustained efficiency in software and AI systems.
 
 
 # Let’s Work Together

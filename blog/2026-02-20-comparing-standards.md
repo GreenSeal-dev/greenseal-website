@@ -68,12 +68,12 @@ GSP™ is different. When a developer optimizes an AI model to use 30% less memo
 
 While the rest of the industry is arguing over how to buy enough carbon offsets to cover their waste, GSP™ focuses on what really matters: Systematic Waste Prevention. By adopting the Green Software Practices™, you are signaling that your commitment to the planet isn't just a badge on your website, but it's rather written into your source code.
 
-Check out the full [Green Software Practices™](https://www.greenseal.dev/gsp/) framework and see how we can help you close the gap between your ESG reports and your production environment.
+Check out the full [Green Software Practices™](https://gsp.greenseal.dev/) framework and see how we can help you close the gap between your ESG reports and your production environment.
 
 ## Closing Remark
 
 The reality is that most sustainability certifications tell the world you are a responsible company, but they don't give your developers the tools to build responsible products.
 
-At GreenSeal.dev, we believe sustainability shouldn't be a top-down mandate. It should be an engineering discipline. [Green Software Practices™](https://www.greenseal.dev/gsp/) complements your existing ISO or B Corp journey by providing the 'how' to their 'why.' It turns abstract environmental goals into concrete architectural decisions, empowering your team to build systems that aren't just 'green' on paper, but resource-efficient by design.
+At GreenSeal.dev, we believe sustainability shouldn't be a top-down mandate. It should be an engineering discipline. [Green Software Practices™](https://gsp.greenseal.dev/) complements your existing ISO or B Corp journey by providing the 'how' to their 'why.' It turns abstract environmental goals into concrete architectural decisions, empowering your team to build systems that aren't just 'green' on paper, but resource-efficient by design.
 
 **Stop just reporting your impact. Start engineering it.**
